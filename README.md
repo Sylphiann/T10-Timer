@@ -17,6 +17,7 @@ To run the program:
 ![alt text](img/image.png)
 
 From what we can see, the message `hey hey` was printed first ahead of the rest, this implies that this message wasn't within the scope of the executor block, and was run before the executor itself. When the executor was run, then it would print the message `howdy!`, along with the future which resolves themselves for 2 seconds using `TimerFuture` and print the last message `done!`.
+
 ---
 
 ### **Experiment 1.3: Multiple Spawn and removing drop** <br><br>
